@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Attraction</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!--header-->
+  <header class="header">
+    <div class="logo"><a href="webmaster.html"> <img src="image/bandarbarukampar.png" alt="community logo"></a></div>
+    <div class="hamburger">
+        <div class="line line1"></div>
+        <div class="line line2"></div>
+        <div class="line line3"></div>
+    </div>
+    <nav class="nav-items">
+        <ul>
+            <li><a href="index.html">HOME</a></li>
+            <li class="dropdown">
+                <div class="dropdown-toggle">
+                    <a href="about.html">ABOUT</a>
+                    <span class="dropdown-arrow">&#9662;</span>
+                </div>
+                <ul class="dropdown-menu">
+                    <li><a href="#community">Community</a></li>
+                    <li><a href="#culture">Culture</a></li>
+                    <li><a href="#food">Food</a></li>
+                    <li><a href="#facilities">Facilities</a></li>
+                </ul>
+            </li>
+            <li><a href="history.html">HISTORY</a></li>
+            <li class="dropdown">
+                <div class="dropdown-toggle">
+                <a href="attraction.html" class="active">ATTRACTION</a>
+                    <span class="dropdown-arrow">&#9662;</span>
+                </div>
+                <ul class="dropdown-menu">
+                    <li><a href="#nature-section">Nature</a></li> <!-- Anchor Link -->
+                    <li><a href="#adventure-section">Adventure</a></li> <!-- Anchor Link -->
+                </ul>
+            </li>
+            <li><a href="event.html">EVENT</a></li>
+            <li><a href="gallery.html">GALLERY</a></li>
+            <li><a href="faq.html">FAQ</a></li>
+            <li><a href="contact.html">CONTACT</a></li>
+        </ul>
+    </nav>
+</header>
+
+<section class="attraction-section">
+    <div class="blue-box"> <!-- Blue Box Container -->
+        <h1 class="attraction-title">ATTRACTION IN BANDAR BARU, KAMPAR.</h1>
+        <p class="attraction-description">Explore the breathtaking beauty and thrilling adventures that await you in Bandar Baru Kampar. <br> From serene nature spots to exciting activities, we offer something for everyone.</p>
+
+        <!-- Nature Section -->
+        <div class="attraction-container" id="nature-section">
+            <h2 class="attraction-title">Nature</h2>
+            <div class="carousel">
+                <button class="arrow left" id="nature-prev">&#8592;</button>
+                <div class="carousel-content">
+                    <div class="text-content">
+                        <h2 id="nature-carousel-heading">Red-Eared Sliders</h2>
+                        <p id="nature-carousel-description">These fascinating turtles are commonly found in our natural lakes, offering an interesting view for nature lovers.</p>
+                    </div>
+                    <div class="image-content">
+                        <img src="image/turtle.jpg" alt="turtle" id="nature-carousel-image">
+                    </div>
+                </div>
+                <button class="arrow right" id="nature-next">&#8594;</button>
+            </div>
+        </div>
+
+        <!-- Adventure Section -->
+        <div class="attraction-container" id="adventure-section">
+            <h2 class="attraction-title">Adventure</h2>
+            <div class="carousel">
+                <button class="arrow left" id="adventure-prev">&#8592;</button>
+                <div class="carousel-content">
+                    <div class="text-content">
+                        <h2 id="adventure-carousel-heading">Jogging Track</h2>
+                        <p id="adventure-carousel-description">A scenic track for runners and fitness enthusiasts, offering both challenges and beautiful views along the way.</p>
+                    </div>
+                    <div class="image-content">
+                        <img src="image/jogging.jpg" alt="jogging" id="adventure-carousel-image">
+                    </div>
+                </div>
+                <button class="arrow right" id="adventure-next">&#8594;</button>
+            </div>
+        </div>
+    </div> <!-- End of Blue Box Container -->
+</section>
+
+   <!-- Footer -->
+   <footer class="footer">
+    <div class="footer-container">
+      <!-- Company Info -->
+      <div class="footer-section">
+        <div class="logo"><a href="webmaster.html"> <img src="image/bandarbarukampar.png" alt="community logo"></a></div>
+        <div class="center-justified">
+            Bandar Baru Kampar is a thriving township in Perak, Malaysia, combining modern amenities, rich history, and picturesque natural surroundings.
+        </div>
+        <div class="footer-socials">
+          <a href="https://web.facebook.com/p/Bandar-Baru-Kampar-Perak-Darul-Ridzuan-100071526361538/?_rdc=1"><img src="image/facebook.png" alt="Facebook"></a>
+          <a href="https://www.instagram.com/explore/locations/814886894/bandar-baru-kampar/"><img src="image/instagram.png" alt="Instagram"></a>
+          <a href="https://www.mdkampar.gov.my/index.php/en/info-kampar"><img src="image/website.png" alt="Website"></a>
+        </div>
+      </div>
+  
+      <!-- Links -->
+      <div class="footer-links">
+        <h4>Links</h4>
+        <div class="footer-links-grid">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="history.html">History</a></li>
+                <li><a href="attraction.html">Attraction</a></li>
+            </ul>
+            <ul>
+                <li><a href="event.html">Event</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="faq.html">FAQ</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+    </div>
+  
+      <!-- Contact Info -->
+      <div class="footer-section">
+        <h4>Our Contacts</h4>
+        <ul>
+          <li><img src="image/location.png" alt="Location"> : 31900, Bandar Baru Kampar, Perak.</li>
+          <li><img src="image/call.png" alt="Phone"> : 05-4671020</li>
+          <li><img src="image/email.png" alt="Email"> : info@bandarbarukampar.com</li>
+        </ul>
+      </div>
+    </div>
+  
+    <div class="footer-bottom">
+      <p>© 2025. <strong>Bandar Baru Kampar.</strong> All Rights Reserved.</p>
+      <p>Recommended Browser: Google Chrome, Mozilla Firefox, Safari.</p>
+      <p>Recommended Resolution: 1920 × 1080</p>
+      <p>Last Updated: February 5, 2025</p>
+    </div>
+  </footer>
+
+<script src="attraction.js"></script>
+</body>
+</html>

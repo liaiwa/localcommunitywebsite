@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!--header-->
+    <header class="header">
+        <div class="logo"><a href="webmaster.html"> <img src="image/bandarbarukampar.png" alt="community logo"></a></div>
+        <div class="hamburger">
+            <div class="line line1"></div>
+            <div class="line line2"></div>
+            <div class="line line3"></div>
+        </div>
+
+
+       <!-- Sidebar Navigation -->
+       <nav class="nav-items">
+        <ul>
+            <li><a href="index.html" class="active">HOME</a></li>
+            <li class="dropdown">
+                <div class="dropdown-toggle">
+                    <a href="about.html">ABOUT</a>
+                    <span class="dropdown-arrow">&#9662;</span>
+                </div>
+                <ul class="dropdown-menu">
+                    <li><a href="about.html#community">Community</a></li>
+                    <li><a href="about.html#culture">Culture</a></li>
+                    <li><a href="about.html#food">Food</a></li>
+                    <li><a href="about.html#facilities">Facilities</a></li>
+                </ul>
+            </li>
+            <li><a href="history.html">HISTORY</a></li>
+            <li class="dropdown">
+                <div class="dropdown-toggle">
+                    <a href="attraction.html">ATTRACTION</a>
+                    <span class="dropdown-arrow">&#9662;</span>
+                </div>
+                <ul class="dropdown-menu">
+                    <li><a href="attraction.html#nature">Nature</a></li>
+                    <li><a href="attraction.html#adventure">Adventure</a></li>
+                </ul>
+            </li>
+            <li><a href="event.html">EVENT</a></li>
+            <li><a href="gallery.html">GALLERY</a></li>
+            <li><a href="faq.html">FAQ</a></li>
+            <li><a href="contact.html">CONTACT</a></li>
+        </ul>
+    </nav>
+</header>
+
+
+    <!-- Section with Background Image -->
+    <section class="hero-section">
+        <h1>Welcome to Our Community</h1>
+        <p>Discover the vibrant life and attractions of our beautiful town.</p>
+        <button id="videoButton" class="hero-button">
+            <span class="text-top">Watch Video</span>
+            <span class="text-bottom">Watch Video</span>
+        </button>
+    </section>
+
+    <!-- Video Modal -->
+    <div id="videoModal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <video controls>
+                <source src="video/bandarbarukamparvideo.mp4" type="video/mp4">
+            </video>
+        </div>
+    </div>
+
+    <!-- Process Section -->
+    <div class="process-section">
+        <div class="container">
+            <header>
+                <h2>ACTIVITIES TO DO:</h2>
+                <h4>in Bandar Baru Kampar</h4>
+            </header>
+
+            <section class="process-steps">
+                <!-- Step 1 -->
+                <section class="process-step">
+                    <figure class="process-image">
+                        <img src="image/serene.jpg" alt="serene">
+                    </figure>
+                    <div class="process-content">
+                        <h3 class="step-number">01</h3>
+                        <h2 class="step-title">Serene Escapes</h2>
+                        <p class="description">
+                            Unwind in the tranquil parks and scenic lakes of Bandar Baru Kampar....
+                            <span class="more-text" style="display: none;">
+                                Perfect for jogging, walking, or simply soaking in nature, these serene spots offer a refreshing escape from the busy town life. Whether you're looking to relax by the water or enjoy a morning run, the peaceful surroundings are sure to rejuvenate your mind and body.
+                            </span>
+                        </p>
+                        <button class="read-more">Read More →</button>
+                    </div>
+                </section>
+
+                <!-- Step 2 -->
+                <section class="process-step reverse">
+                    <figure class="process-image">
+                        <img src="image/museum.jpg" alt="museum">
+                    </figure>
+                    <div class="process-content">
+                        <h3 class="step-number">02</h3>
+                        <h2 class="step-title">Historical Insights</h2>
+                        <p class="description">
+                            Step back in time and explore the fascinating history of Kampar at the Tin Mining Museum....
+                            <span class="more-text" style="display: none;">
+                                This cultural gem showcases exhibits on the town's tin-mining heritage, including vintage equipment, historical photos, and stories of miners' lives. It's an enriching experience that brings local history to life.
+                            </span>
+                        </p>
+                        <button class="read-more">Read More →</button>
+                    </div>
+                </section>
+
+                <!-- Step 3 -->
+                <section class="process-step">
+                    <figure class="process-image">
+                        <img src="image/bowling.jpg" alt="bowling">
+                    </figure>
+                    <div class="process-content">
+                        <h3 class="step-number">03</h3>
+                        <h2 class="step-title">Bowling Fun</h2>
+                        <p class="description">
+                            Gather your friends and family for a lively game at the bowling alley!...
+                            <span class="more-text" style="display: none;">
+                                Whether you’re a beginner or a seasoned bowler, the fun atmosphere and modern facilities guarantee a great time. It’s the perfect activity for bonding, friendly competitions, or simply having a blast indoors.
+                            </span>
+                        </p>
+                        <button class="read-more">Read More →</button>
+                    </div>
+                </section>
+
+                <!-- Step 4 -->
+                <section class="process-step reverse">
+                    <figure class="process-image">
+                        <img src="image/cinema.jpg" alt="cinema">
+                    </figure>
+                    <div class="process-content">
+                        <h3 class="step-number">04</h3>
+                        <h2 class="step-title">Cinema Experience</h2>
+                        <p class="description">
+                            Enjoy the latest movies in a comfortable and modern cinema right in Bandar Baru Kampar....
+                            <span class="more-text" style="display: none;">
+                                Perfect for a relaxing outing with family, friends, or a solo escape, the cinema offers a wide selection of films to suit all tastes. Sit back, grab some popcorn, and immerse yourself in the magic of the big screen.
+                            </span>
+                        </p>
+                        <button class="read-more">Read More →</button>
+                    </div>
+                </section>
+            </div>
+        </div>
+    </section>
+
+    <section class="community-section">
+        <h2>Have a Question <br> About The Community? <br><span>Contact Us Today!</span></h2>
+        <a href="contact.html" class="community-button">Contact Us</a> <!-- Using anchor link instead of button -->
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-container">
+          <!-- Company Info -->
+          <div class="footer-section">
+            <div class="logo"><a href="webmaster.html"> <img src="image/bandarbarukampar.png" alt="community logo"></a></div>
+            <div class="center-justified">
+                Bandar Baru Kampar is a thriving township in Perak, Malaysia, combining modern amenities, rich history, and picturesque natural surroundings.
+            </div>
+            <div class="footer-socials">
+              <a href="https://web.facebook.com/p/Bandar-Baru-Kampar-Perak-Darul-Ridzuan-100071526361538/?_rdc=1"><img src="image/facebook.png" alt="Facebook"></a>
+              <a href="https://www.instagram.com/explore/locations/814886894/bandar-baru-kampar/"><img src="image/instagram.png" alt="Instagram"></a>
+              <a href="https://www.mdkampar.gov.my/index.php/en/info-kampar"><img src="image/website.png" alt="Website"></a>
+            </div>
+          </div>
+      
+          <!-- Links -->
+          <div class="footer-links">
+            <h4>Links</h4>
+            <div class="footer-links-grid">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="history.html">History</a></li>
+                    <li><a href="attraction.html">Attraction</a></li>
+                </ul>
+                <ul>
+                    <li><a href="event.html">Event</a></li>
+                    <li><a href="gallery.html">Gallery</a></li>
+                    <li><a href="faq.html">FAQ</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+      
+          <!-- Contact Info -->
+          <div class="footer-section">
+            <h4>Our Contacts</h4>
+            <ul>
+              <li><img src="image/location.png" alt="Location"> : 31900, Bandar Baru Kampar, Perak.</li>
+              <li><img src="image/call.png" alt="Phone"> : 05-4671020</li>
+              <li><img src="image/email.png" alt="Email"> : info@bandarbarukampar.com</li>
+            </ul>
+          </div>
+        </div>
+      
+        <div class="footer-bottom">
+          <p>© 2025. <strong>Bandar Baru Kampar.</strong> All Rights Reserved.</p>
+          <p>Recommended Browser: Google Chrome, Mozilla Firefox, Safari.</p>
+          <p>Recommended Resolution: 1920 × 1080</p>
+          <p>Last Updated: February 5, 2025</p>
+        </div>
+      </footer>
+
+    <script src="main.js"></script>
+</body>
+</html>
